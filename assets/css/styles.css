@@ -1,0 +1,28 @@
+
+html{
+    --lamp-size: 50px
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.lamp{
+    margin: 1em 0;
+    background-color: gray;
+    border-radius: 50%;
+    height: var(--lamp-size);
+    width: var(--lamp-size);
+    padding: 1em;
+    border: solid 2px #1f1f1f;
+}
+.lampOn{
+    background-color: yellow;
+    border: solid 2px #ffffff;
+}
